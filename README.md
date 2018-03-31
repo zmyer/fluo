@@ -19,12 +19,11 @@ limitations under the License.
 ---
 [![Build Status][ti]][tl] [![Apache License][li]][ll] [![Maven Central][mi]][ml] [![Javadoc][ji]][jl]
 
-**Apache Fluo lets users make incremental updates to large data sets stored in Apache Accumulo.**
-
-[Apache Fluo][fluo] is an open source implementation of [Percolator][percolator] (which populates
-Google's search index) for [Apache Accumulo][accumulo]. Fluo makes it possible to update the results
-of a large-scale computation, index, or analytic as new data is discovered. Check out the Fluo
-[project website][fluo] for news and general information.
+[Apache Fluo][fluo] is a distributed processing system that lets users make incremental updates to large
+data sets. With Apache Fluo, users can set up workflows that execute cross node transactions when data
+changes. These workflows enable users to continuously join new data into large existing data sets without
+reprocessing all data. Apache Fluo is built on [Apache Accumulo]. Check out the [Fluo project website][fluo]
+for news and general information.
 
 ## Getting Started
 
@@ -36,8 +35,8 @@ of a large-scale computation, index, or analytic as new data is discovered. Chec
 [fluo]: https://fluo.apache.org/
 [related]: https://fluo.apache.org/related-projects/
 [tour]: https://fluo.apache.org/tour/
-[accumulo]: https://accumulo.apache.org
-[percolator]: https://research.google.com/pubs/pub36726.html
+[Apache Accumulo]: https://accumulo.apache.org
+[Percolator]: https://research.google.com/pubs/pub36726.html
 [fluo-docs]: https://fluo.apache.org/docs/
 [ti]: https://travis-ci.org/apache/fluo.svg?branch=master
 [tl]: https://travis-ci.org/apache/fluo
@@ -45,6 +44,6 @@ of a large-scale computation, index, or analytic as new data is discovered. Chec
 [ll]: https://github.com/apache/fluo/blob/master/LICENSE
 [mi]: https://maven-badges.herokuapp.com/maven-central/org.apache.fluo/fluo-api/badge.svg
 [ml]: https://maven-badges.herokuapp.com/maven-central/org.apache.fluo/fluo-api/
-[ji]: https://javadoc-emblem.rhcloud.com/doc/org.apache.fluo/fluo-api/badge.svg
+[ji]: https://www.javadoc.io/badge/org.apache.fluo/fluo-api.svg
 [jl]: http://www.javadoc.io/doc/org.apache.fluo/fluo-api
 [logo]: contrib/fluo-logo.png
